@@ -27,3 +27,14 @@ The command interpreter provides the following commands:
 
 `(hbnb) create BaseModel
 6d1d6c2f-bc6b-4f1e-8f05-e5b5d5b94c3c`
+
+### Showing am object
+
+'(hbnb) show BaseModel 6d1d6c2f-bc6b-4f1e-8f05-e5b5d5b94c3c
+[BaseModel] (6d1d6c2f-bc6b-4f1e-8f05-e5b5d5b94c3c) {'created_at': datetime.datetime(2022, 2, 11, 2, 17, 59, 713277), 'id': '6d1d6c2f-bc6b-4f1e-8f05-e5b5d5b94c3c', 'updated_at': datetime.datetime(2022, 2, 11, 2, 17, 59, 713298)}'
+
+### Updating an object's attributes:
+
+'(hbnb) update BaseModel 6d1d6c2f-bc6b-4f1e-8f05-e5b5d5b94c3c first_name "John"
+(hbnb) show BaseModel 6d1d6c2f-bc6b-4f1e-8f05-e5b5d5b94c3c
+[BaseModel] (6d1d6c2f-bc6b-4f1e-8f05-e5b5d5b94c3c) {'created_at': datetime.datetime(2022, 2, 11, 2, 17, 59, 713277), 'id': '6d1d6c2f-bc6b-4f1e-8f05-e5b5'
