@@ -25,5 +25,5 @@ The command interpreter provides the following commands:
 ## Examples
 ### Creating a new BaseModel object:
 
-(hbnb) create BaseModel
-6d1d6c2f-bc6b-4f1e-8f05-e5b5d5b94c3c
+`(hbnb) create BaseModel
+6d1d6c2f-bc6b-4f1e-8f05-e5b5d5b94c3c`
